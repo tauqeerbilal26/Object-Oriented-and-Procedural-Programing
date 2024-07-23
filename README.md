@@ -42,20 +42,20 @@ print(f"The area of the rectangle is: {area}")
 Object-Oriented Programming is a programming paradigm based on the concept of "objects", which are instances of classes. It organizes code into reusable units that encapsulate data and behavior.
 
 ### Key Concepts
--**Classes and Objects:** Classes define blueprints for objects. Objects are instances of classes.
--**Encapsulation:** Bundling of data (attributes) and methods (functions) that operate on the data.
--**Inheritance:** Mechanism to create new classes from existing ones, inheriting attributes and methods.
--**Polymorphism:** Ability to redefine methods in derived classes while preserving the same interface.
--**Abstraction**: Hiding complex implementation details and showing only essential features.
+- **Classes and Objects:** Classes define blueprints for objects. Objects are instances of classes.
+- **Encapsulation:** Bundling of data (attributes) and methods (functions) that operate on the data.
+- **Inheritance:** Mechanism to create new classes from existing ones, inheriting attributes and methods.
+- **Polymorphism:** Ability to redefine methods in derived classes while preserving the same interface.
+- **Abstraction**: Hiding complex implementation details and showing only essential features.
 ### Advantages
--**Modularity**: Code is organized into classes, promoting modular design.
--**Reusability**: Classes and objects can be reused across projects.
--**Scalability**: Easier to manage and extend for large projects.
--**Maintainability**: Simplifies debugging and maintenance through encapsulation and abstraction.
+- **Modularity**: Code is organized into classes, promoting modular design.
+- **Reusability**: Classes and objects can be reused across projects.
+- **Scalability**: Easier to manage and extend for large projects.
+- **Maintainability**: Simplifies debugging and maintenance through encapsulation and abstraction.
 ### Disadvantages
--**Complexity**: More complex to design and understand compared to procedural programming.
--**Performance Overhead**: May have performance overhead due to abstraction layers.
--**Learning Curve**: Steeper learning curve for beginners.
+- **Complexity**: More complex to design and understand compared to procedural programming.
+- **Performance Overhead**: May have performance overhead due to abstraction layers.
+- **Learning Curve**: Steeper learning curve for beginners.
 # OOP approach to calculate the area of a rectangle
 ```python
 class Rectangle:
