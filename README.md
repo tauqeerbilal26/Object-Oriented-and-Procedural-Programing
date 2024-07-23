@@ -1,66 +1,3 @@
-<style>
-/* General styles */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 20px;
-    color: #333;
-}
-
-/* Header styles */
-h1, h2, h3 {
-    color: #0056b3;
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 5px;
-}
-
-/* Table styles */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-}
-
-th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-}
-
-th {
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-/* Code block styles */
-pre, code {
-    background-color: #f4f4f4;
-    padding: 5px;
-    border-radius: 3px;
-    font-family: Consolas, 'Courier New', monospace;
-}
-
-/* List styles */
-ul {
-    margin: 10px 0;
-    padding: 0 20px;
-}
-
-/* Paragraph styles */
-p {
-    margin: 10px 0;
-}
-
-/* Link styles */
-a {
-    color: #0056b3;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-</style>
 
 # Object-Oriented Programming (OOP) vs. Procedural Programming
 
@@ -99,30 +36,28 @@ length = 5
 width = 3
 area = calculate_area(length, width)
 print(f"The area of the rectangle is: {area}")
-Object-Oriented Programming (OOP)
-Definition
+```
+## Object-Oriented Programming (OOP)
+### Definition
 Object-Oriented Programming is a programming paradigm based on the concept of "objects", which are instances of classes. It organizes code into reusable units that encapsulate data and behavior.
 
-Key Concepts
-Classes and Objects: Classes define blueprints for objects. Objects are instances of classes.
-Encapsulation: Bundling of data (attributes) and methods (functions) that operate on the data.
-Inheritance: Mechanism to create new classes from existing ones, inheriting attributes and methods.
-Polymorphism: Ability to redefine methods in derived classes while preserving the same interface.
-Abstraction: Hiding complex implementation details and showing only essential features.
-Advantages
-Modularity: Code is organized into classes, promoting modular design.
-Reusability: Classes and objects can be reused across projects.
-Scalability: Easier to manage and extend for large projects.
-Maintainability: Simplifies debugging and maintenance through encapsulation and abstraction.
-Disadvantages
-Complexity: More complex to design and understand compared to procedural programming.
-Performance Overhead: May have performance overhead due to abstraction layers.
-Learning Curve: Steeper learning curve for beginners.
-Example
-python
-Copy code
+### Key Concepts
+-**Classes and Objects:** Classes define blueprints for objects. Objects are instances of classes.
+-**Encapsulation:** Bundling of data (attributes) and methods (functions) that operate on the data.
+-**Inheritance:** Mechanism to create new classes from existing ones, inheriting attributes and methods.
+-**Polymorphism:** Ability to redefine methods in derived classes while preserving the same interface.
+-**Abstraction**: Hiding complex implementation details and showing only essential features.
+### Advantages
+-**Modularity**: Code is organized into classes, promoting modular design.
+-**Reusability**: Classes and objects can be reused across projects.
+-**Scalability**: Easier to manage and extend for large projects.
+-**Maintainability**: Simplifies debugging and maintenance through encapsulation and abstraction.
+### Disadvantages
+-**Complexity**: More complex to design and understand compared to procedural programming.
+-**Performance Overhead**: May have performance overhead due to abstraction layers.
+-**Learning Curve**: Steeper learning curve for beginners.
 # OOP approach to calculate the area of a rectangle
-
+```python
 class Rectangle:
     def __init__(self, length, width):
         self.length = length
@@ -134,6 +69,7 @@ class Rectangle:
 rectangle = Rectangle(5, 3)
 area = rectangle.calculate_area()
 print(f"The area of the rectangle is: {area}")
+```
 Comparison Table
 Feature	Procedural Programming	Object-Oriented Programming
 Focus	Functions/Procedures	Classes/Objects
