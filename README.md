@@ -70,17 +70,23 @@ rectangle = Rectangle(5, 3)
 area = rectangle.calculate_area()
 print(f"The area of the rectangle is: {area}")
 ```
-Comparison Table
-Feature	Procedural Programming	Object-Oriented Programming
-Focus	Functions/Procedures	Classes/Objects
-Data Management	Global and Local Variables	Encapsulation and Abstraction
-Code Reusability	Limited	High
-Scalability	Difficult to manage large projects	Easier to manage large projects
-Ease of Learning	Easier for beginners	Steeper learning curve
-Performance	Generally faster	May have overhead due to abstraction
-Modularity	Functions and Modules	Classes and Objects
-Example Use Case	Simple scripts, small programs	Large-scale software development
-Conclusion
+# Comparison of Procedural Programming and Object-Oriented Programming
+
+| Feature                | Procedural Programming           | Object-Oriented Programming            |
+|------------------------|----------------------------------|----------------------------------------|
+| **Focus**              | Functions/Procedures             | Classes/Objects                        |
+| **Data Management**    | Global and Local Variables       | Encapsulation and Abstraction          |
+| **Code Reusability**   | Limited                          | High                                   |
+| **Scalability**        | Difficult to manage large projects | Easier to manage large projects        |
+| **Ease of Learning**   | Easier for beginners             | Steeper learning curve                 |
+| **Performance**        | Generally faster                 | May have overhead due to abstraction   |
+| **Modularity**         | Functions and Modules            | Classes and Objects                    |
+| **Example Use Case**   | Simple scripts, small programs   | Large-scale software development       |
+
+## Conclusion
+
 Both Procedural Programming and Object-Oriented Programming have their own strengths and weaknesses. The choice between them depends on the specific requirements of the project, the complexity of the problem, and the preferences of the development team.
 
-In general, Procedural Programming is suitable for small, simple tasks, while OOP is better suited for larger, more complex applications that require maintainability and scalability.
+
+
+- In general, Procedural Programming is suitable for small, simple tasks, while OOP is better suited for larger, more complex applications that require maintainability and scalability.
